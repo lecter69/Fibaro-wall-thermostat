@@ -6,7 +6,7 @@ Using ESP12 and Fibaro API
 Image pins to ESP12 pins map:<br />
 D1 - GPIO5<br />
 D2 - GPIO4<br />
-D5 - GPIO18<br />
+D5 - GPIO15<br />
 D6 - GPIO12<br />
 D7 - GPIO13<br />
 D8 - GPIO14
