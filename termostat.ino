@@ -204,7 +204,7 @@ void printTemp(String payload) {
   newTemperature = currentTemperature;
   String firstLine = getTemperatureLineText();
   String outdoorTemp = getOutdoorTemperature();
-  for (int i = 0; i < outdoorTemp.length(); i++) {
+  for (int i = 0; i < (10 - outdoorTemp.length()); i++) {
     firstLine += " ";
   }
   firstLine += outdoorTemp;
